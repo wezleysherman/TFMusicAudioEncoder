@@ -3,8 +3,9 @@ An Autoencoder for WAV files
 
 
 ## Setup
-1. Put all WAV files in the audio_wav folder
-2. Open up your terminal within the folder and run `python3 encoder.py`
+1. Create a folder named 'audio_wav' and a folder named 'output'
+2. Put all WAV files for training in the audio_wav folder
+3. Open up your terminal within the folder and run `python3 encoder.py`
 
 ## Tips
 - If you're only looking at a single batch of songs, it'd be wise to move the
