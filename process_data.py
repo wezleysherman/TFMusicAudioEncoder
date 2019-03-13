@@ -6,7 +6,7 @@ from tensorflow.contrib.framework.python.ops import audio_ops
 from tensorflow.contrib import ffmpeg
 from scipy.fftpack import rfft, irfft
 from glob import iglob
-
+from pydub import AudioSegment
 
 DATA_FILES_MP3 = 'audio'
 DATA_FILES_WAV = 'audio_wav'
